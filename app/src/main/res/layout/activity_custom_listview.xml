@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="40dp"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:visibility="visible">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="ToDo List"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@color/black"
+        />
+    <Button
+        android:id="@+id/AddTodo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Add ToDo"
+        android:background="#0000ff"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        />
+    <ListView
+        android:id = "@+id/list"
+        android:layout_width = "wrap_content"
+        android:layout_height = "match_parent"
+        android:divider = "#000"
+        android:dividerHeight = "1dp"
+        android:footerDividersEnabled = "false"
+        android:headerDividersEnabled = "false"/>
+</LinearLayout>
